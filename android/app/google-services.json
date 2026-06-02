@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "360543541155",
+    "project_id": "farmitre-vegatables",
+    "storage_bucket": "farmitre-vegatables.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360543541155:android:a4ef84d1dec30973c46c16",
+        "android_client_info": {
+          "package_name": "com.farmite.vegetables"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "360543541155-iplni4dd3qaq23gaqp5ckco7ar2t9g4d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.farmite.vegetables",
+            "certificate_hash": "99508148aab2698a5d1e55f67c82452e0be8df64"
+          }
+        },
+        {
+          "client_id": "360543541155-c2og6g1cdt4etpd1kp56v282bqlrjii6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKaL5wnJn_bo6GuthSVrDRLQN0r8h2zYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "360543541155-c2og6g1cdt4etpd1kp56v282bqlrjii6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

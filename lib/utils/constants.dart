@@ -1,0 +1,82 @@
+import '../models/types.dart';
+
+final List<VegetableInfo> vegetables = [
+  VegetableInfo(id: "aanaba_kayalu", nameEn: "AANABA KAYALU", nameTe: "ఆనబ కాయలు", emoji: "🥒"),
+  VegetableInfo(id: "aariti_gelalu", nameEn: "AARITI GELALU", nameTe: "ఆరటి గెలలు", emoji: "🍌"),
+  VegetableInfo(id: "aakakara_kayalu", nameEn: "AAKAKARA KAYALU", nameTe: "ఆకాకర కాయలు", emoji: "🌵"),
+  VegetableInfo(id: "allam", nameEn: "ALLAM", nameTe: "అల్లం", emoji: "🫚"),
+  VegetableInfo(id: "bangala_dumpalu", nameEn: "BANGALA DUMPALU", nameTe: "బంగాళాదుంపలు", emoji: "🥔"),
+  VegetableInfo(id: "benda_kayalu", nameEn: "BENDA KAYALU", nameTe: "బెండకాయలు", emoji: "🥒"),
+  VegetableInfo(id: "beera_kayalu", nameEn: "BEERA KAYALU", nameTe: "బీరకాయలు", emoji: "🥒"),
+  VegetableInfo(id: "budida_gummadi_kayalu", nameEn: "BUDIDA GUMMADI KAYALU", nameTe: "బూడిద గుమ్మడి కాయలు", emoji: "🍈"),
+  VegetableInfo(id: "broccolis", nameEn: "BROCCOLIS", nameTe: "బ్రోకలీ", emoji: "🥦"),
+  VegetableInfo(id: "beans", nameEn: "BEANS", nameTe: "బీన్స్", emoji: "🫘"),
+  VegetableInfo(id: "bobbarlu", nameEn: "BOBBARLU", nameTe: "బొబ్బర్లు", emoji: "🫘"),
+  VegetableInfo(id: "boppai_kayalu", nameEn: "BOPPAI KAYALU", nameTe: "బొప్పాయి కాయలు", emoji: "🥥"),
+  VegetableInfo(id: "batanis", nameEn: "BATANIS", nameTe: "బఠానీలు", emoji: "🫛"),
+  VegetableInfo(id: "beetroots", nameEn: "BEETROOTS", nameTe: "బీట్రూట్స్", emoji: "🧅"),
+  VegetableInfo(id: "carrot_washing", nameEn: "CARROT-WASHING", nameTe: "క్యారెట్ వాషింగ్", emoji: "🥕"),
+  VegetableInfo(id: "cabbaje", nameEn: "CABBAJE", nameTe: "క్యాబేజీ", emoji: "🥬"),
+  VegetableInfo(id: "chilukada_dumpalu", nameEn: "CHILUKADA DUMPALU", nameTe: "చిలకడ దుంపలు", emoji: "🍠"),
+  VegetableInfo(id: "ceeras", nameEn: "CEERAS", nameTe: "చీరస్", emoji: "🥬"),
+  VegetableInfo(id: "chikkudu_kayalu", nameEn: "CHIKKUDU KAYALU", nameTe: "చిక్కుడు కాయలు", emoji: "🫛"),
+  VegetableInfo(id: "chinta_kayalu", nameEn: "CHINTA KAYALU", nameTe: "చింత కాయలు", emoji: "🫘"),
+  VegetableInfo(id: "chakkarakeli_gelalu", nameEn: "CHAKKARAKELI GELALU", nameTe: "చక్కరకేళి గెలలు", emoji: "🍌"),
+  VegetableInfo(id: "cauli_flowers", nameEn: "CAULI FLOWERS", nameTe: "కాలీఫ్లవర్స్", emoji: "🥦"),
+  VegetableInfo(id: "chaama_dumpalu", nameEn: "CHAAMA DUMPALU", nameTe: "చామ దుంపలు", emoji: "🥔"),
+  VegetableInfo(id: "capsicums", nameEn: "CAPSICUMS", nameTe: "క్యాప్సికమ్స్", emoji: "🫑"),
+  VegetableInfo(id: "carrots", nameEn: "CARROTS", nameTe: "క్యారెట్లు", emoji: "🥕"),
+  VegetableInfo(id: "chow_chow_lu", nameEn: "CHOW CHOW LU", nameTe: "చౌ చౌ లు", emoji: "🍈"),
+  VegetableInfo(id: "donda_kayalu", nameEn: "DONDA KAYALU", nameTe: "దొండకాయలు", emoji: "🥒"),
+  VegetableInfo(id: "dosa_kayalu", nameEn: "DOSA KAYALU", nameTe: "దోసకాయలు", emoji: "🥒"),
+  VegetableInfo(id: "goru_chikkudu", nameEn: "GORU CHIKKUDU", nameTe: "గోరు చిక్కుడు", emoji: "🫛"),
+  VegetableInfo(id: "ginjalu", nameEn: "GINJALU", nameTe: "గింజలు", emoji: "🌰"),
+  VegetableInfo(id: "gomgura", nameEn: "GOMGURA", nameTe: "గోంగూర", emoji: "🥬"),
+  VegetableInfo(id: "gummadi_kayalu", nameEn: "GUMMADI KAYALU", nameTe: "గుమ్మడి కాయలు", emoji: "🎃"),
+  VegetableInfo(id: "jeedi_ginjalu", nameEn: "JEEDI GINJALU", nameTe: "జీడి గింజలు", emoji: "🥜"),
+  VegetableInfo(id: "jamakayalu", nameEn: "JAMAKAYALU", nameTe: "జామకాయలు", emoji: "🍏"),
+  VegetableInfo(id: "kakara_kayalu", nameEn: "KAKARA KAYALU", nameTe: "కాకర కాయలు", emoji: "🥒"),
+  VegetableInfo(id: "kanupu_chikkudu", nameEn: "KANUPU CHIKKUDU", nameTe: "కనుపు చిక్కుడు", emoji: "🫛"),
+  VegetableInfo(id: "kandha_dumpalu", nameEn: "KANDHA DUMPALU", nameTe: "కంద దుంపలు", emoji: "🥔"),
+  VegetableInfo(id: "kothimera", nameEn: "KOTHIMERA", nameTe: "కొత్తిమీర", emoji: "🌿"),
+  VegetableInfo(id: "karpura_ariti", nameEn: "KARPURA ARITI", nameTe: "కర్పూర ఆరటి", emoji: "🍌"),
+  VegetableInfo(id: "karivepaku", nameEn: "KARIVEPAKU", nameTe: "కరివేపాకు", emoji: "🍃"),
+  VegetableInfo(id: "mamidi_kayalu", nameEn: "MAMIDI KAYALU", nameTe: "మామిడి కాయలు", emoji: "🥭"),
+  VegetableInfo(id: "mullangi_dumpalu", nameEn: "MULLANGI DUMPALU", nameTe: "ముల్లంగి దుంపలు", emoji: "🫜"),
+  VegetableInfo(id: "mokka_jonna", nameEn: "MOKKA JONNA", nameTe: "మొక్క జొన్న", emoji: "🌽"),
+  VegetableInfo(id: "merchi", nameEn: "MERCHI", nameTe: "మిర్చి", emoji: "🌶️"),
+  VegetableInfo(id: "maredu_kayalu", nameEn: "MAREDU KAYALU", nameTe: "మారేడు కాయలు", emoji: "🍋"),
+  VegetableInfo(id: "munaga_kayalu", nameEn: "MUNAGA KAYALU", nameTe: "మునగ కాయలు", emoji: "🥭"),
+  VegetableInfo(id: "nimma_kayalu", nameEn: "NIMMA KAYALU", nameTe: "నిమ్మకాయలు", emoji: "🍋"),
+  VegetableInfo(id: "paala_kuura", nameEn: "PAALA KUURA", nameTe: "పాలకూర", emoji: "🥬"),
+  VegetableInfo(id: "pandu_merchi", nameEn: "PANDU MERCHI", nameTe: "పండు మిర్చి", emoji: "🌶️"),
+  VegetableInfo(id: "panasa_kayalu", nameEn: "PANASA KAYALU", nameTe: "పనస కాయలు", emoji: "🍈"),
+  VegetableInfo(id: "potla_kayalu", nameEn: "POTLA KAYALU", nameTe: "పొట్లకాయలు", emoji: "🥒"),
+  VegetableInfo(id: "pendlam_dumpalu", nameEn: "PENDLAM DUMPALU", nameTe: "పెండ్లం దుంపలు", emoji: "🍠"),
+  VegetableInfo(id: "potals", nameEn: "POTALS", nameTe: "పోటల్స్", emoji: "🥒"),
+  VegetableInfo(id: "pudina", nameEn: "PUDINA", nameTe: "పుదీనా", emoji: "🌱"),
+  VegetableInfo(id: "reegupallu", nameEn: "REEGUPALLU", nameTe: "రేగుపళ్ళు", emoji: "🍒"),
+  VegetableInfo(id: "bajji_merchi", nameEn: "BAJJI MERCHI", nameTe: "బజ్జీ మిర్చి", emoji: "🌶️"),
+  VegetableInfo(id: "sora_kayalu", nameEn: "SORA KAYALU", nameTe: "సొరకాయలు", emoji: "🥒"),
+  VegetableInfo(id: "sweet_corns", nameEn: "SWEET CORNS", nameTe: "స్వీట్ కార్న్స్", emoji: "🌽"),
+  VegetableInfo(id: "thota_kura", nameEn: "THOTA KURA", nameTe: "తోటకూర", emoji: "🥬"),
+  VegetableInfo(id: "tomatos", nameEn: "TOMATOS", nameTe: "టమోటాలు", emoji: "🍅"),
+  VegetableInfo(id: "tella_vankayalu", nameEn: "TELLA VANKAYALU", nameTe: "తెల్ల వంకాయలు", emoji: "🍆"),
+  VegetableInfo(id: "ulli_payalu", nameEn: "ULLI PAYALU", nameTe: "ఉల్లిపాయలు", emoji: "🧅"),
+  VegetableInfo(id: "usiri_kayalu", nameEn: "USIRI KAYALU", nameTe: "ఉసిరి కాయలు", emoji: "🍏"),
+  VegetableInfo(id: "villuli_payalu", nameEn: "VILLULI PAYALU", nameTe: "వెల్లుల్లి పాయలు", emoji: "🧄"),
+  VegetableInfo(id: "pennada_vankayalu", nameEn: "PENNADA VANKAYALU", nameTe: "పెన్నాడ వంకాయలు", emoji: "🍆"),
+  VegetableInfo(id: "vankayalu", nameEn: "VANKAYALU", nameTe: "వంకాయలు", emoji: "🍆"),
+  VegetableInfo(id: "velaga_kayalu", nameEn: "VELAGA KAYALU", nameTe: "వెలగ కాయలు", emoji: "🥥"),
+];
+
+String getVegetableName(String id, bool isTe, {bool isDemo = false}) {
+  if (isDemo) {
+    if (id == 'tomatos') return isTe ? "టమోటా డెమో" : "Tomato Demo";
+    if (id == 'ulli_payalu') return isTe ? "ఉల్లిపాయ డెమో" : "Onion Demo";
+    if (id == 'bangala_dumpalu') return isTe ? "బంగాళాదుంప డెమో" : "Potato Demo";
+  }
+  
+  final veg = vegetables.firstWhere((v) => v.id == id, orElse: () => vegetables.first);
+  return isTe ? veg.nameTe : veg.nameEn;
+}
